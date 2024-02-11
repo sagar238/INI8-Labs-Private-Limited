@@ -3,5 +3,4 @@ CREATE TABLE Registration (
     Name TEXT NOT NULL,
     Email TEXT NOT NULL,
     DateOfBirth DATE,
-    -- Add additional fields as needed
 );
