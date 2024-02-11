@@ -14,7 +14,7 @@ class RegistrationManager:
                 Name TEXT NOT NULL,
                 Email TEXT NOT NULL,
                 DateOfBirth DATE
-                -- Add additional fields as needed
+
             )
         ''')
         self.conn.commit()
