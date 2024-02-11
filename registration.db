@@ -1,0 +1,7 @@
+CREATE TABLE Registration (
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Email TEXT NOT NULL,
+    DateOfBirth DATE,
+    -- Add additional fields as needed
+);
